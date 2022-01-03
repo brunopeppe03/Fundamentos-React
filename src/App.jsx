@@ -3,6 +3,7 @@ import React from "react";
 
 import Card from "./components/layaut/Card";
 
+import Mega from './components/Mega/Mega';
 import Contador from './components/contador/Contador';
 import Imput from './components/formulario/Imput';
 import DiretaPai from './components/comunicaçao/DiretaPai';
@@ -24,6 +25,11 @@ export default () => (
             <h1>Fundamentos React</h1>
 
         <div className="Cards">
+
+        <Card titulo="#13- mega" color="#89006E">
+            <Mega qtde={8}></Mega>
+        </Card>
+
 
         <Card titulo="#12- Contador" color="#424242">
             <Contador numeroInicial={10}></Contador>
